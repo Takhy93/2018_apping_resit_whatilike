@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mbengue.whatilike.Main3Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="400px"
+            android:layout_height="400px"
+            android:src="@drawable/epita"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EPITA"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="ATrouvez facilement des codes de couleur HTML pour votre site Web en utilisant nos sélecteur de couleur, tableaux de couleur et des noms de couleur HTML avec des codes de couleur HEX, RGB et les valeurs HSL." />
+
+        />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Would you like to know more ?"
+            android:paddingBottom="0px"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
